@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background: #ffeb3b;
+    color: #111;
+    margin: 0;
+}
+header {
+    background: #fffde7;
+    padding: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #111;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 4px;
+
+}
+nav ul li a:hover{
+    background: #ffe082;
+    color: #6c63ff;
+}
+.principal {
+    padding: 30px 10px 10px 10px;
+}
+.principal img,
+.principal .presentacion {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.destacada {
+    border-radius: 12px;
+}
+.presentacion {
+    margin-top: 20px;
+    max-width: 600px;
+    text-align: center;
+}
+.secundaria {
+    width: 100%;
+    margin: 30px 0 0 0;
+    text-align: center;
+}
+.evento, .entradas {
+    display: inline-block;
+    vertical-align: top;
+    width: 49%;
+    box-sizing: border-box;
+    padding: 20px 10px;
+}
+.evento {
+    text-align: left;
+}
+.entradas {
+    text-align: right;
+}
+.comprar {
+    margin-top: 35px;
+    background: #6c63ff;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.1em;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.2s;
+}
+.comprar:hover {
+    background: #4834d4;
+    transform: scale(1.05);
+}
+footer {
+    background: #fffde7;
+    text-align: center;
+    padding: 18px 0;
+    margin-top: 40px;
+}
+footer a {
+    color: #111;
+    margin: 0 10px;
+    font-size: 1.7em;
+    transition: color 0.2s;
+}
+footer a:hover {
+    color: #6c63ff;
+}
+
+@media (max-width: 600px) {
+    body {
+        display: inline-block;
+    }
+    header, footer {
+        padding: 20px;
+    }
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+    .evento, .entradas {
+        display: block;
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+    }
+
+    .comprar {
+        margin-top: 0px;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+        color: #ffeb3b;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    header, footer {
+        background: #222;
+    }
+    nav ul li a {
+        color: #ffeb3b;
+    }
+    nav ul li a:hover, nav ul li a:active {
+        background: #333;
+        color: #fff;
+    }
+    .comprar {
+        background: #ffeb3b;
+        color: #111;
+    }
+    .comprar:hover {
+        background: #ffe082;
+        color: #222;
+    }
+    footer a {
+        color: #ffeb3b;
+    }
+    footer a:hover {
+        color: #ffe082;
+    }
+}

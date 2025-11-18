@@ -1,0 +1,20 @@
+#padre {
+    display: grid;
+    border: solid 2px black;
+    grid-template-columns: 200px 200px 200px;
+    column-gap: 30px;
+    row-gap: 10px;
+    justify-content: center;
+}
+
+div {
+    height: 300px;
+    border: solid 2px red;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 0 50%;
+}
+
+#hijo1 {
+    background-image: url("./R3iobJA.jpeg");
+}

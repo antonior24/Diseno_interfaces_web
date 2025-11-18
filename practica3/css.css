@@ -1,0 +1,70 @@
+body {
+    background-color: #276bb8;
+}
+.caja {
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+    height: 500px;
+    background-color: white;
+}
+
+.caja,#absoluto {
+    position: relative;
+}
+
+div.contenedor {
+    text-align: center;
+    margin-top: 150px;
+}
+
+#caja1 {
+    background-color: #e27d39;
+    width: 100px;
+    height: 100px;
+    text-align: center ;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.55);
+}
+
+#caja2 {
+    background-color: #7927a8;
+    width: 100px;
+    height: 100px;
+    text-align: center ;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.55);
+}
+
+#caja3 {
+    background-color: #23b950;
+    width: 100px;
+    height: 100px;
+    text-align: center ;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 50%;
+    box-shadow: 8px 7px 5px 0px rgba(0,0,0,0.55);
+}
+
+h1 {
+    color: white;
+    margin-top: 30px;
+}
+
+#absoluto {
+    margin-top: 0;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    font-size: 1.5em;
+    color: #7927a8;
+    z-index: 2;
+}

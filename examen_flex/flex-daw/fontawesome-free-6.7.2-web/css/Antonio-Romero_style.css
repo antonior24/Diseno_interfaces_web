@@ -1,0 +1,179 @@
+@media (prefers-color-scheme: dark) {
+    body {
+        background: #111;
+        color: white;
+    }
+}
+
+.container.header-inner {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: 100%;
+    display: flex;
+}
+
+.site-header {
+    display: flex;
+    width: 100%;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+.logo {
+    justify-content: flex-start;
+    flex-grow: 1;
+    align-content: center;
+    margin-left: 30px;
+}
+header {
+    border: #333 solid 0.5px;
+}
+.hero-text {
+    justify-content: flex-start;
+    margin-left: 30px;
+}
+.hero-media {
+ justify-content: flex-end;
+ align-items: center;
+ align-content: center;
+ text-align: center;
+ flex-grow: 1;
+ border: solid 1px #8b8b8b;
+ border-radius: 3%;
+ margin-left: 50px;
+ width: 50%;
+ background-color: #222;
+}
+
+.hero.container {
+    display: flex;
+    margin-top: 50px;
+    height: 300px;
+}
+
+.btn.primary {
+    background-color: rgb(49, 190, 136);
+    padding: 15px;
+    border-radius: 5%;
+}
+.btn.ghost {
+    padding: 15px;
+    border-radius: 5%;
+    border: #333 solid 0.5px;
+    margin-left: 20px;
+}
+.hero-actions {
+    margin-top: 30px;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.courses.container {
+    margin-top: 30px;
+}
+
+.card {
+    background-color: #222;
+    border-radius: 5%;
+    border: #333 solid 0.5px;
+    padding: 15px;
+    width: 25%;
+}
+
+.fa-brands.fa-html5.card-icon {
+    color: rgb(49, 190, 136);
+}
+
+.fa-brands.fa-css3-alt.card-icon {
+    color: rgb(49, 190, 136);
+}
+
+.fa-brands.fa-js.card-icon {
+    color: rgb(49, 190, 136);
+}
+
+.btn.small {
+    border: #333 solid 0.5px ;
+    padding: 10px;
+    border-radius: 5%;
+}
+
+.benefit-list {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    
+}
+
+.benefit-list li {
+    margin-left: 15px;
+    border: #333 solid 0.5px ;
+    padding: 10px;
+    border-radius: 5%;
+    background-color: #222;
+}
+
+.container.footer-inner {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+@media (max-width: 700px) {
+    .container.header-inner {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .main-nav {
+        visibility: hidden;
+        margin: 0;
+    }
+    .hero.container {
+        display: flex;
+        margin-top: 50px;
+        height: 300px;
+        flex-direction: column;
+    }
+    .hero-text {
+    justify-content: flex-start;
+    margin-left: 30px;
+    }
+    .hero-media {
+        margin-top: 5%;
+    }
+
+    .card-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card {
+    background-color: #222;
+    border-radius: 5%;
+    border: #333 solid 0.5px;
+    padding: 15px;
+    width: 90%;
+    margin-bottom: 20px;
+    }
+
+    .benefit-list {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+    
+    }
+
+    .benefit-list li {
+        margin-left: 5px;
+    }
+}

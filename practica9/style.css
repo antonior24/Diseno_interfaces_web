@@ -1,0 +1,42 @@
+.caja {
+    width: 500px;
+    height: 200px;
+    background-color: lightblue;
+    border: 2px solid navy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: navy;
+}
+#check {
+    margin-left: 20px;
+    border: solid 2px black;
+    width: 130px;
+    height: 60px;
+    background-color: rgb(160, 160, 160);
+    border-radius: 10%;
+    display: flex;
+    transition: background-color 0.3s;
+}
+
+#circulo {
+    margin-left: 15px;
+    border: solid 2px black;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+    align-self: center;
+    transition: margin-left 0.3s, background-color 0.3s;
+}
+
+#circulo:active {
+    background-color: rgb(0, 255, 0);
+    margin-left: 75px;
+}
+
+#check:active {
+    background-color: rgb(0, 176, 230);
+}

@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.padre {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+.hijo {
+    border: solid black 1px;
+    background-color: lightblue;
+    margin: 0;
+}
+
+#uno {
+    flex-basis: 3%;
+}
+#dos {
+    flex-basis: 57%;
+}
+#tres {
+    flex-basis: 40%;
+}
+
+#uno div {
+    border: solid black 1px;
+    height: 30px;
+    margin: 10px;
+}
+
+#dos h1{
+    margin: 30px;
+}
+
+#dos div {
+    border: solid black 1px;
+    height: 100px;
+    margin: 30px;
+    width: 30%;
+    align-content: center;
+    text-align: center;
+}
+
+#tres div{
+    margin: 30px;
+}
+
+#cajas3 {
+    display: flex;
+}
+
+#cajas3 div {
+    border: solid black 1px;
+    height: 100px;
+    width: 70px;
+    border-radius: 10%;
+
+}
+
+div#cajas3 {
+    margin :0;
+}
+
+#oferta {
+    background-color: crimson;
+    width: 100px;
+    height: 30px;
+    border-radius: 7%;
+    text-align: center;
+    align-content: center;
+    border: solid black 1px;
+    color: white;
+}
+
+#oferta:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+    .padre {
+        flex-direction: column;
+    }
+    #uno, #dos, #tres {
+        flex-basis: auto;
+    }
+    #dos div {
+        width: 80%;
+    }
+    #uno div {
+        width: 30px;
+    }
+
+    #uno {
+        display: flex;
+        flex-direction: row;
+    }
+    
+}

@@ -1,0 +1,50 @@
+body {
+  background-color: #25274D;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 200px);
+  grid-template-rows: repeat(3, 150px);
+  gap: 10px;
+}
+
+/* Colores según la imagen */
+.item1, .item2, .item6 {
+  background-color: #6CC04A; /* Verde */
+}
+.item3, .item5, .item7 {
+  background-color: #E8413A; /* Rojo */
+}
+.item4, .item8 {
+  background-color: #F6B93B; /* Amarillo */
+}
+
+/* Posiciones en el grid */
+.item1 {
+  grid-row: 1 / 4;
+  grid-column: 1 / 2;
+}
+.item2 {
+    grid-row: 1 / 2;
+    grid-column: 2 / 4;
+}
+.item3 {
+
+}
+.item4 {
+
+}
+.item5 {
+
+}
+.item6 {
+    grid-row: 2 / 4;
+    grid-column: 4 / 5;
+}
+.item7 {
+}
